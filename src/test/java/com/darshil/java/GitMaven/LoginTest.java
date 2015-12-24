@@ -23,7 +23,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("shdar123@gmail.com");
 		
-		system.out.println("Login test is done");
+		System.out.println("Login test is done");
 	}
 	
 	@AfterTest
